@@ -24,7 +24,7 @@ public class SulfurasTest {
     }
 
     @Test
-    public void updateQualitySulfuras() {
+    public void the_case_of_sulfuras_which_is_never_sold_or_decreases_in_quality() {
 
         Sulfuras sulfuras = new Sulfuras("Sulfuras, Hand of Ragnaros", 0, 80);
         sulfuras.updateQuality();

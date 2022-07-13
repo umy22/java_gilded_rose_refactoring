@@ -59,7 +59,7 @@ public class BackstageTest {
     }
 
     @Test
-    public void qualityMax50() {
+    public void the_quality_of_an_item_is_never_more_than_50() {
 
         Backstage pass = new Backstage("Backstage passes to a TAFKAL80ETC concert", 5, 49);
         pass.updateQuality();

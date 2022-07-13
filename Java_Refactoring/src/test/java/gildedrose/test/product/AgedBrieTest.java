@@ -1,6 +1,7 @@
 package gildedrose.test.product;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
 import gildedrose.product.AgedBrie;
@@ -8,15 +9,15 @@ import gildedrose.product.AgedBrie;
 
 public class AgedBrieTest {
 
-    @Test
-    public void crearAgedBrie() {
+    @Test 
+    public void the_case_of_aged_brie_whose_quality_increases_as_older_it_gets() {
 
         AgedBrie cheese = new AgedBrie("Aged Brie", 2, 0);
         assertEquals("Aged Brie", cheese.getName());
         assertEquals(2, cheese.getSell_in(), 0);
         assertEquals(0, cheese.getQuality(), 0);
     }
-
+    
     @Test
     public void toStringTest() {
         AgedBrie cheese = new AgedBrie("Aged Brie", 2, 0);
@@ -43,7 +44,7 @@ public class AgedBrieTest {
     }
 
     @Test
-    public void qualityMax50() {
+    public void the_quality_of_an_item_is_never_more_than_50() {
 
         AgedBrie brie = new AgedBrie("Aged Brie", -1, 50);
         brie.updateQuality();

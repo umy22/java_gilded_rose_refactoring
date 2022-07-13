@@ -51,7 +51,7 @@ public class ConjuredTest {
     }
 
     @Test
-    public void qualityMinZERO() {
+    public void the_quality_of_an_item_is_never_less_than_50() {
 
         Conjured brie = new Conjured("Conjured Mana Cake", 1, 1);
         brie.updateQuality();

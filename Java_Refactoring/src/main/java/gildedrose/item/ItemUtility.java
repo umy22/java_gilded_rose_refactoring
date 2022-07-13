@@ -2,6 +2,7 @@ package gildedrose.item;
 
 import gildedrose.terminal.ItemUpdate;
 
+// Here java abstraction concept achieve
 public class ItemUtility implements ItemUpdate{
 
 	public Item item;

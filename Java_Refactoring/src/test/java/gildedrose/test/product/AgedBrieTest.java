@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import gildedrose.product.AgedBrie;
 
-
+// Created JUnit test cases under Single Responsibility Principle
 public class AgedBrieTest {
 
     @Test 
